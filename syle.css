@@ -1,0 +1,227 @@
+            body {
+                margin: 0;
+                padding: 0;
+                background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url("universe.jpg");
+                width: 100%;
+                background-position: center;
+                background-size: cover;
+                height: 100vh;
+                background-attachment: fixed;
+
+            }
+
+
+
+            .navbar {
+                width: 100%;
+                height: 100px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+            
+
+
+
+
+            }
+            .logo{
+                width: 300px;
+                text-align: center;
+            }
+             .my_logo{
+                text-decoration: none;
+                font-size: 40px;
+                color: rgb(254, 253, 252);
+                background-color: #ff8177;
+                background-image: linear-gradient(to top ,#ffc508 0%,#f4f4f1 100%);
+                background-size: 100%;
+               -webkit-background-clip: text;
+               -moz-background-clip: text;
+               -webkit-text-fill-color: transparent;
+               -moz-text-fill-color:transparent;
+               
+  
+    
+                
+            }
+          
+
+
+
+            .menu {
+                padding:5px 40px;
+                flex: 1;
+             
+            }
+
+            ul {
+                float: left;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            ul li {
+                list-style: none;
+                margin-left: 62px;
+                margin-top: 27px;
+                font-size: 20px;
+            }
+
+            ul li a {
+                text-decoration: none;
+                color: white;
+                font-family: Arial;
+                font-weight: bold;
+                transition: 0.4s ease-in-out;
+
+            }
+
+            ul li a:hover {
+                color: green;
+            }
+
+            ul li a:active {
+                color: rgb(255, 221, 0);
+            }
+       
+
+           
+
+          .container{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+           
+          }
+.text{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+.text h2{
+text-align: center;
+font-size: 30px;
+font-weight: bold;
+color: rgb(106, 84, 84);
+}
+.text p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-left: 20px;
+}
+.cn{
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    text-decoration: none;
+    color: rgb(255, 123, 0);
+}
+.cn:hover{
+    background-color: orange;
+    transition: 0.5s ease;
+    color: white;
+}
+
+.login_form{
+    width: 400px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+            .form {
+                width: 250px;
+                height: 380px;
+                background-color: black;
+                border-radius: 10px;
+                padding: 25px;
+                z-index: 0;
+                
+
+            }
+
+            .form h2 {
+                width: 220px;
+                font-family: sans-serif;
+                text-align: center;
+                color: orange;
+                font-size: 20px;
+                background-color: white;
+                border-radius: 10px;
+                margin: 2px;
+            }
+
+            .form input {
+               
+                background: transparent;
+                border-bottom: 1px solid orange;
+                border-top: none;
+                border-right: none;
+                border-left: none;
+                color: white;
+                font-size: 15px;
+                letter-spacing: 1px;
+                margin-top: 50px;
+                font-family: sans-serif;
+            }
+
+            .form input:focus {
+                outline: none;
+            }
+
+            .placeholder {
+                color: red;
+                font-family: Aerial;
+            }
+
+            .btnn {
+                width: 240px;
+                height: 40px;
+                background: orange;
+                border: none;
+                margin-top: 30px;
+                font-size: 18px;
+                border-radius: 10px;
+                cursor: pointer;
+                color: white;
+            }
+
+            .btnn:active {
+                background-color: blue;
+            }
+
+            .btnn:hover {
+                background-color: red;
+            }
+
+            .btnn a {
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+            }
+
+            .form .link {
+                font-family: Aerial;
+                font-size: 17px;
+                padding-top: 20px;
+                text-align: center;
+            }
+
+            .form .link a {
+                text-decoration: none;
+                color: orange;
+            }
+
+            .liw {
+                padding-top: 15px;
+                padding-bottom: 10px;
+                text-align: center;
+            }
+
+           
